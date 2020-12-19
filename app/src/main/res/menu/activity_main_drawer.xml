@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_premierleague"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Premie League" />
+        <item
+            android:id="@+id/nav_laliga"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="La Liga" />
+        <item
+            android:id="@+id/nav_seriea"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SerieA" />
+        <item
+            android:id="@+id/nav_bundesliga"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bundesliga" />
+        <item
+            android:id="@+id/nav_ligue1"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ligue 1" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
